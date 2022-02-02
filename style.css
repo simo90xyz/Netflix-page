@@ -1,0 +1,130 @@
+/*
+* {
+    border: 1px solid red;
+}
+
+*/
+body {
+    margin: 0%;
+}
+
+
+/*
+
+nav {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+*/
+
+.header  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 16px;
+    background-color: #221f1f;
+    
+}
+
+.header .left-header .right-header {
+    line-height: 32px;
+    
+    
+}
+
+
+
+.left-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 24px;
+    width: 50%;
+    padding-top: 16px;
+}
+
+
+.right-header {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 24px;
+    align-items: center;
+    float: none;
+    width: 50%;
+    padding-top: 16px;
+}
+
+.centro-assistenza {
+    font-size: 20px;
+    color: #f5f5f1;
+    padding-left: 24px;
+    font-weight: 400;
+   
+}
+
+.centro-assistenza > a {
+    text-decoration: none;
+}
+
+.centro-assistenza > a:hover {
+    color: #f5f5f1;
+    text-decoration: underline;
+}
+
+.centro-assistenza > a:visited {
+    color: #f5f5f1;
+}
+
+.abbonati {
+    padding-right: 16px;
+}
+
+.abbonati-button {
+    background-color: #221f1f;
+    color: #f5f5f1;
+    border: 1px solid #f5f5f1;
+    padding: 8px;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+.abbonati-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.accedi-button {
+    background-color: red;
+    color: white;
+    padding: 8px 16px;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+.accedi-button:hover {
+    cursor: pointer;
+    background-color: darkred;
+}
+
+
+.back {
+    padding: 40px 0px 40px 32px ;
+    
+}
+
+.back > a {
+    color: red;
+    text-decoration: none;
+}
+
+.back > a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.back > a:visited {
+    color: red;
+}
