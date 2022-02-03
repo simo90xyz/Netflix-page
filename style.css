@@ -376,6 +376,7 @@ section > .firstitle{
 }
 
 .footer-second{
+    display: flex;
     width:100vw;
     height: 250px;
     background-color: rgb(34, 31, 31);;
@@ -437,3 +438,48 @@ section > .firstitle{
 .chat:hover {
     background-color: rgb(240, 240, 240);
 }
+
+
+
+.footer-select{
+    background-color: rgb(34, 31, 31);
+    margin-left: 10vw;
+    flex: 50% 1;
+    display:flex;
+    align-items: center;
+}
+
+#language{
+    padding: 13px 45px 13px 16px;
+    color: #8b8a88;
+    cursor:pointer;
+    font-weight: bold;
+    background-color: rgb(34, 31, 31);
+    border-radius: 2px;
+}
+
+#language:hover{
+    color:white;
+    background-color: grey;
+}    
+
+ 
+.footer-nav{
+    background-color: rgb(34, 31, 31);
+    margin-right: 10vw;
+    flex: 50% 1;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.footer-nav a{
+    margin: 10px;
+    color: #8b8a88;
+    text-decoration: none;
+}
+
+.footer-nav nav>a:hover{
+    text-decoration: underline;
+    color: #bbbaba;
+}    
