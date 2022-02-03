@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 header{
     display: flex;
     flex-wrap: wrap;
@@ -72,6 +76,14 @@ header{
     background-color:rgba(255, 0, 0, 0.842);
 }
 
+.separation {
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 1px;
+    height: 24px;
+    background-color: white;
+    
+}
 /* MAIN */
 
 main{
@@ -107,7 +119,7 @@ section > .firstitle{
     height: 100%;
 }
 
-.flex-conteiner{
+.flex-container{
     display: flex;
 }
 
@@ -354,9 +366,13 @@ section > .firstitle{
 /* FOOTER */
 
 .footer-first{
+    display: flex;
     width:100vw;
     height: 100px;
     background-color:rgb(234, 234, 230); ;
+    margin-top: 40px;
+    border-top: 1px solid #d5d4d1;
+    
 }
 
 .footer-second{
@@ -365,15 +381,59 @@ section > .firstitle{
     background-color: rgb(34, 31, 31);;
 }
 
-.footer-up{
+/* .footer-up{
+    display: flex;
     background-color: rgb(234, 234, 230);
     height: 33.333333%;
     margin-left: 10vw;
     margin-right: 10vw;
+    margin-top: 32px;
 }
 
+*/
 .footer-down{
     background-color: rgb(34, 31, 31);
     height: 67%;
 }
 
+.footer-left {
+    
+    flex-grow: 1;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 32px;
+}
+
+.footer-right {
+    margin-left: 40vw;
+    margin-top: 20px;
+    flex-grow: 1;
+    
+    
+}
+
+.contact-us {
+    padding: 16px;
+    font-weight: bold;
+    border: 1px solid grey;
+    border-radius: 2px;
+    background-color: white;
+}
+
+.chat {
+    font-weight: bold;
+    padding: 16px;
+    margin-left: 16px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    background-color: white;
+}
+
+
+.contact-us:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.chat:hover {
+    background-color: rgb(240, 240, 240);
+}
