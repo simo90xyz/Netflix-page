@@ -7,8 +7,13 @@
 body {
     
     overflow-x: hidden;
+    
 }
 
+main {
+    
+    width: 80%;
+}
 
 button:hover {
     cursor: pointer;
@@ -18,11 +23,20 @@ header{
     display: flex;
     flex-wrap: wrap;
     height: 65px;
+    width: 100%;
+    background-color: black
+    
 }
+
+.header-container{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+
 
 .nav-left{
     flex: 50% 1;
-    background-color: black;
     display: flex;
     align-items: center;
     padding-left: 10vw;
@@ -34,7 +48,6 @@ header{
 
 .nav-right{
     flex: 50% 1;
-    background-color: black;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -131,6 +144,13 @@ section > .firstitle{
 
 .utility{
     margin-left: 85px;
+    font-size: 1.1em;
+    
+}
+
+ul {
+    margin-left: 32px;
+    margin-top: 32px;
 }
 
 .articoli-suggeriti>li{
@@ -489,3 +509,7 @@ section > .firstitle{
     text-decoration: underline;
     color: #bbbaba;
 }    
+
+.piano-abbonamento {
+    margin-left: 24px;
+}
