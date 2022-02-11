@@ -1,0 +1,529 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black
+}
+
+menu,li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    color: whitesmoke;
+}
+
+.logo{
+    margin-right: auto;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+}
+
+span{
+    color:whitesmoke;
+    font-size: 20px;
+    position: relative;
+    top: -5px;
+    
+}
+
+body{
+    
+}
+h2{
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 70px;
+}
+
+.ricerca{
+    width: 400px;
+    margin-left: 70px;
+    height: 40px;
+    
+}
+.menu,li,a{
+    transition: all .3s ease;
+}
+
+.menu a:hover{
+color: red;
+}
+
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .dropbtn:hover{
+      transition: 1s;
+      color: red;
+  }
+
+
+
+  
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color:#383d39 ;
+    
+}
+
+.menu,a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+.menu,li{
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+
+.contenitore{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    background-color:#292826 ;
+    padding: 200px;
+    margin-top: 20px;
+    height: 20px;
+    position: relative;
+    left: -1px;
+    top: -10px;
+    width: auto;
+    box-shadow: -9px -19px 22px -10px rgba(143,123,123,0.75);
+-webkit-box-shadow: -9px -19px 22px -10px rgba(143,123,123,0.75);
+-moz-box-shadow: -9px -19px 22px -10px rgba(143,123,123,0.75);
+
+}
+
+.box1{
+    position: relative;
+    top: -110px;
+    left: 420px;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    
+  }
+
+  
+.box2{
+    position: relative;
+    bottom: 30px;
+    top: 13px;
+    right: -1px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  img{
+    position: relative;
+    top: -340px;
+    right: -60px;
+    
+  }
+  
+  .contenitore-ricerca{
+      display: flex;
+      flex-direction: column;
+      background-color: black;
+      position: relative;
+    }  
+      
+   
+
+
+  .titolo2{
+      color: black;
+      position: relative;
+      left: -40px;
+
+  }
+
+  .lista1{
+      list-style: square;
+      position: relative;
+     
+  }
+
+  .ultimo{
+      background-color: whitesmoke;
+      position: relative;
+      padding-top: 54px;
+      top: -280px;
+      box-shadow: 2px 11px 5px 3px rgba(194,184,184,0.75);
+      -webkit-box-shadow: 2px 11px 5px 3px rgba(194,184,184,0.75);
+      -moz-box-shadow: 2px 11px 5px 3px rgba(194,184,184,0.75);
+      box-shadow: -1px -9px 5px 3px rgba(194,184,184,0.75);
+     -webkit-box-shadow: -1px -9px 5px 3px rgba(194,184,184,0.75);
+      -moz-box-shadow: -1px -9px 5px 3px rgba(194,184,184,0.75);
+     display: flex;
+     flex-direction: column;
+     width: 650px;
+    
+  }
+
+  .paragrafo{
+      position: relative;
+      left: 17px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .bottone{
+      width: 200px;
+      height: 30px;
+      background-color: red;
+      border: red;
+      position: relative;
+      right: -100px;
+      color: whitesmoke;
+      cursor: pointer;
+  }
+
+
+  .last{
+
+    background-color: whitesmoke;
+    padding-top: 50px;
+    position: relative;
+    top: -780px;
+    right: -670px;
+    box-shadow: 2px 11px 5px 3px whitesmoke;
+    -webkit-box-shadow: 2px 11px 5px 3px ;
+    -moz-box-shadow: 2px 11px 5px 3px rgba(194,184,184,0.75);
+    box-shadow: -1px -9px 5px 3px rgba(194,184,184,0.75);
+   -webkit-box-shadow: -1px -9px 5px 3px rgba(194,184,184,0.75);
+  -moz-box-shadow: -1px -9px 5px 3px rgba(194,184,184,0.75);
+   display: flex;
+   flex-direction: column;
+   width: 650px;
+   height: 600px;
+
+
+  }
+
+  p{
+      position: relative;
+      margin-left:30px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .img2{
+    position: static;
+    bottom: 100px;
+    top: -10px;
+    position: relative;
+    left: 100px;
+    right: -20px;
+    width: 450px;
+  }
+
+  .paragrafo3{
+    border: solid 1px black;
+    width: 80px;
+    position: relative;
+    right: -50px;
+    left: 70px;
+    
+  }
+
+  .bottone2{
+      position: relative;
+      top: -10px;
+      cursor: pointer;
+      
+  }
+
+  .ultimo-titolo{
+      color: black;
+      position: relative;
+      right: -30px;
+  }
+
+  .last-p{
+      margin-left: 100px;
+  }
+
+ 
+
+
+.container{
+  border:  solid whitesmoke;
+  padding-top: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: -50px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  height: 250px;
+  margin-left: 40px;
+  
+  -webkit-box-shadow: 0px 1px 12px 9px #919191; 
+  box-shadow: 0px 1px 12px 9px #919191;
+
+
+}
+
+.picture{
+  width: 450px;
+  margin-bottom: 330px;
+  margin-top: 150px;
+  margin-left: 660px;
+  position: relative;
+  bottom: 800px;
+  height: 240px;
+  
+  
+ 
+}
+
+
+
+.pulsante{
+  color: white;
+  background-color: red;
+  border: solid red;
+  height: 45px;
+  position: relative;
+  bottom: 130px;
+  left: 60px;
+}
+
+
+
+
+
+
+footer {
+  background-color: white;
+  padding: 1.69rem;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-footer {
+  align-self: flex-end;
+  height: 38px;
+  width: 140px;
+}
+
+footer > section {
+  width: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.social {
+  padding-top: 0px;
+  padding-bottom: 16px;
+  display:flex;
+  align-items: center;
+}
+
+footer > section > div > h5 {
+  font-weight: 700;
+}
+
+h5 > span {
+  color: #e50914;
+  margin-right: 15px;
+  font-weight: 700;
+}
+
+.social > a > svg {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list > li {
+  display: inline;
+  padding-left: 1.5rem;
+}
+
+.footer-list > li > a {
+  text-decoration: none;
+  color: #696868;
+  font-size: 0.75rem;
+}
+
+.footer-list > li:first-of-type > a {
+  color: #221f1f;
+  font-weight: bold;
+}
+
+.container3 {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container3 > h3 {
+  align-self: center;
+  font-size: 24px;
+  line-height: 24px;
+  padding-bottom: 24px;
+  position: relative;
+  bottom: 800px;
+}
+
+.container3 > div{
+  display: flex;
+  position: relative;
+  bottom: 800px;
+  left: 145px;
+}
+
+.box {
+  position: relative;
+  width: 320px;
+  height: 324px;
+  background-color: #696868;
+  border: 1px solid white;
+  overflow:hidden;
+  cursor: pointer;
+}
+
+.box > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box:hover > img {
+  transform: scale(1.2);
+  transition-duration: 8s;
+}
+
+.btn-play {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  align-self: center;
+  background: linear-gradient(360deg, rgba(0,0,0,1), rgba(255,0,0,0))
+}
+
+.box-text {
+  position: absolute;
+  top: 0;
+  color: white;
+  padding: 2.13rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+footer {
+  background-color: white;
+  padding: 1.69rem;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-footer {
+  align-self: flex-end;
+  height: 38px;
+  width: 140px;
+}
+
+footer > section {
+  width: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.social {
+  padding-top: 0px;
+  padding-bottom: 16px;
+  display:flex;
+  align-items: center;
+}
+
+footer > section > div > h5 {
+  font-weight: 700;
+}
+
+h5 > span {
+  color: #e50914;
+  margin-right: 15px;
+  font-weight: 700;
+}
+
+.social > a > svg {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list > li {
+  display: inline;
+  padding-left: 1.5rem;
+}
+
+.footer-list > li > a {
+  text-decoration: none;
+  color: #696868;
+  font-size: 0.75rem;
+}
+
+.footer-list > li:first-of-type > a {
+  color: #221f1f;
+  font-weight: bold;
+}
